@@ -61,6 +61,7 @@ jobs:
     # ИНЦИДЕНТ 1: здесь не хватает packages: write
     permissions:
       contents: read
+      packages: write # Добавлено право на запись
     steps:
       - name: Checkout
         uses: actions/checkout@v4
